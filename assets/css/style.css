@@ -291,7 +291,9 @@
         font-size: 10px;
     }
     .page__3{
-        display: block;
+        display: grid;
+        grid-template-areas: 'slid'
+        'form';
     }
     .form{
         width: 70%;
@@ -305,6 +307,7 @@
         background-repeat: no-repeat;
         height: 100%;
         animation: none;
+        grid-area: slid;
     }
     .slider__title{
         font-size: 20px;
@@ -314,6 +317,7 @@
     }
     .half-1{
         width: 100%;
+        grid-area: form;
     }
     .subtitle{
         font-size: 10px;
